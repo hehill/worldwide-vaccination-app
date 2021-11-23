@@ -85,10 +85,6 @@ var trace1 = {
   Plotly.newPlot('bubble', data, layout);
 }
 
-function rand() {
-  console.log("Hi!")
-}
-
 d3.selectAll('input[name = gdp-plot]').on("change", updatePlotly);
 
 // Update the restyled plot's values
